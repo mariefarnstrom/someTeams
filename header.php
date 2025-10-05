@@ -11,13 +11,16 @@ $title = 'Some teams';
     <title><? echo $title ?></title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <h1><?= $title ?></h1>
+        <section class= "top">
+            <img class="football" src="football.png">
+            <h1 class="title"><?= $title ?></h1>
+        </section>
         <nav>
             <a href="index.php">Home</a>
             <a href="about.php">About</a>
