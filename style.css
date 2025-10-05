@@ -1,0 +1,24 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div {
+    background-color: rgb(177, 187, 125);
+    padding: 15px;
+    border-radius: 20px;
+    height: 250px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.teamLogo {
+    width: 140px;
+}
+
+a {
+    align-self: center;
+}
