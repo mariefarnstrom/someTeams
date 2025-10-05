@@ -1,18 +1,20 @@
 <?php
 
-require __DIR__.'/header.php';
-require __DIR__.'/data.php';
+require __DIR__ . '/header.php';
+require __DIR__ . '/data.php';
 ?>
 
 <section>
     <?php foreach ($teams as $teamName => $team):
-        ?>
-        <div>
-            <img class="teamLogo" src="<?= $team['logo']; ?>" alt="<?= $teamName?> logotype" >
-            <br>
-            <a href=""> <?= $teamName;?></a>
-        </div>    
-        <?php endforeach
+    ?>
+        <div class="outerFrame">
+            <div class="innerFrame">
+                <img class="teamLogo" src="<?= $team['logo']; ?>" alt="<?= $teamName ?> logotype">
+                <br>
+            </div>
+            <a href="" class="teamLink"> <?= $teamName; ?></a>
+        </div>
+    <?php endforeach
     ?>
 </section>
 
@@ -21,4 +23,4 @@ require __DIR__.'/data.php';
 
 <?php
 
-require __DIR__.'/footer.php';
+require __DIR__ . '/footer.php';
