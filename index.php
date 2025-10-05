@@ -10,9 +10,8 @@ require __DIR__ . '/data.php';
         <div class="outerFrame">
             <div class="innerFrame">
                 <img class="teamLogo" src="<?= $team['logo']; ?>" alt="<?= $teamName ?> logotype">
-                <br>
             </div>
-            <a href="" class="teamLink"> <?= $teamName; ?></a>
+            <a href="moreinfo.php?team= <?= rawurlencode($teamName) ?>" class="teamLink"> <?= $teamName; ?></a>
         </div>
     <?php endforeach
     ?>
