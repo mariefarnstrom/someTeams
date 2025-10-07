@@ -18,7 +18,7 @@ $title = 'Some teams';
 <body>
     <header>
         <section class= "top">
-            <img class="football" src="football.png">
+            <img class="football" src="football.png" alt="football">
             <h1 class="title"><?= $title ?></h1>
         </section>
         <nav>

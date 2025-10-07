@@ -1,1 +1,2 @@
 Some Teams
+This is a school assignment where I was told to display some teams and some information about them. There is a main page with all the teams displayed and a clikable link. The link leads to a dynamic second page with information about the team you clicked. There is also a page with information about me, who created the webbsite.
